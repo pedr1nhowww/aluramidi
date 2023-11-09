@@ -21,17 +21,19 @@
     <h1>Alura Midi</h1>
 
     <section class="teclado">
-        <button class="tecla tecla_pom">Pom</button>
-        <button class="tecla tecla_clap">Clap</button>
-        <button class="tecla tecla_tim">Tim</button>
+        <button onclick="som_tecla_pom('pom')" class="tecla tecla_pom">Pom</button>
+        <button onclick="alert('bah')" class="tecla tecla_clap">Clap</button>
+        <button onclick="alert('tche')"  class="tecla tecla_tim">Tim</button>
 
-        <button class="tecla tecla_puff">Puff</button>
-        <button class="tecla tecla_splash">Splash</button>
-        <button class="tecla tecla_toim">Toim</button>
+        <button onclick="alert('cazakistão')"  class="tecla tecla_puff">Puff</button>
+        <button onclick="alert('tropa do gordão')"  class="tecla tecla_splash">Splash</button>
+        <button onclick="alert('eu')"  class="tecla tecla_toim">Toim</button>
 
-        <button class="tecla tecla_psh">Psh</button>
-        <button class="tecla tecla_tic">Tic</button>
-        <button class="tecla tecla_tom">Tom</button>
+        <button onclick="alert('acho')"  class="tecla tecla_psh">Psh</button>
+        <button onclick="alert('que')"  class="tecla tecla_tic">Tic</button>
+        <button onclick="alert('cabe mais')"  class="tecla tecla_tom">Tom</button>
+
+
     </section>
 
     <audio controls scr="sounds/keyq.wav" id="som_tecla_pom"></audio>
@@ -44,6 +46,6 @@
     <audio controls src="sounds/keyz.wav" id="som_tecla_psh"></audio>
     <audio controls src="sounds/keyx.wav" id="som_tecla_tic"></audio>
     <audio controls src="sounds/keyc.wav" id="som_tecla_tom"></audio>
-
+<script src="main.js" ></script>
 </body>
 </html>
